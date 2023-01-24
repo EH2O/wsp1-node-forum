@@ -20,6 +20,7 @@ router.get('/', async function (req, res, next) {
     res.render('index.njk', {
         rows: rows,
         title: 'Forum',
+        
     });
 });
 
